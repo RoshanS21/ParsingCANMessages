@@ -1,5 +1,6 @@
 #include "can_utils.h"
 #include <iostream>
+#include <unistd.h>
 
 int main() {
     std::string interface = "can0";
